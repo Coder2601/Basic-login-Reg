@@ -33,9 +33,16 @@ const Login = () => {
       body:JSON.stringify(userDetail)
       })
       
-      console.log(await result.json());
-      alert('Login Success!');
-      nav('/')
+      let outData  = await result.json();
+
+      if(outData.msg=='Login Success'){
+        alert(outData.msg)
+        nav('/')
+      }
+      else{
+        alert('Login Failed!!');
+        nav('/login')
+      }
     }
     else{
       alert('Login failed')
