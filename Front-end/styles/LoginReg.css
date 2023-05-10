@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+  }
+  
+  .logincard {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+  }
+  
+  .h2Reg {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  .labelReg {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .inputReg[type="text"],
+  .inputReg[type="password"] {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .buttonReg[type="submit"],
+  .buttonReg {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .toggle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .toggle button {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+  }
+  

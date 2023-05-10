@@ -1,0 +1,40 @@
+.navbar {
+    background-color:rgb(249, 219, 179);
+    color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .logo a {
+    color: rgb(255, 0, 0);
+    font-size: 2rem;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links li:first-child {
+    margin-left: 0;
+  }
+  
+  .nav-links a {
+    color: rgb(3, 5, 139);
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #f8f9fa;
+  }
+  
