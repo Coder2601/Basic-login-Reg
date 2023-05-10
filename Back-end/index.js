@@ -53,7 +53,7 @@ app.post('/login',async(req,res)=>{
     console.log(result[0].password, password);
 
     if(result[0].password===password){
-        res.send(result);
+        res.send({msg:'Login Success'});
     }else{
         res.send({msg:'Wrong Creds'})
     }
